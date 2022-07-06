@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    background-image: linear-gradient(to bottom, rgba(99, 64, 35, 0.52), rgba(137, 66, 119, 0.73)),
+     url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-image: fixed;
+  padding-bottom: 50px;
+
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 140px;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    color: beige;
+   
+}
+.banner-btn{
+    margin: 50px auto 0;
+    
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid rgb(133, 56, 20);
+    background-color: #d62912cf;
+    font-size: 16px;
+
+}
+.donate-item{
+    padding-top: 60px;
+}
+.donate-item h2{
+font-size: 35px;
+text-align: center;
+font-weight: 500;
+color: #000;
+}
+.donate-item p{
+font-size: 20px;
+text-align: center;
+font-weight: 500;
+color: rgb(93, 93, 83);
+
+}
+.item-section {
+display: flex;
+justify-content: center;
+  
+}
+.item-section h3{
+    margin: 20px 12px;
+    background-color: beige;
+    padding: 35px 25px;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(58, 51, 51);
+}
+.item-2{
+border: 2px solid #d62912cf;
+}
+.form{
+margin: 30px auto;
+width: 40%;
+border-bottom: 2px solid rgb(172, 160, 160);
+padding-top: 15px;
+padding-bottom: 5px;
+}
+.form input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+::placeholder{
+    color: rgb(70, 47, 47);
+    font-size: 16px;
+}
+section .input-btn{
+text-align: center;
+}
+section .input-btn a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 12px 15px;
+    color: #fff;
+    border: .5px solid rgb(133, 56, 20);
+    background-color: #e4280fcf;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.plan{
+    padding-top: 60px;
+}
+.plan-text{
+    text-align: center;
+}
+.plan-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.plan-text p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(77, 77, 66);
+}
+.plan-system{
+  margin-top: 60px;
+    display: flex;
+}
+.food{
+    margin-left:5%;
+    width: 40%;
+    background-color: aquamarine;
+    padding: 20px 25px; 
+    box-shadow: 10px 10px 15px gray;
+   
+}
+ .shelter{
+    margin-left:5%;
+    margin-right: 5%;
+    width: 40%;
+    background-color: rgb(196, 242, 118);
+    padding: 20px 25px;
+    box-shadow: 10px 10px 15px gray;
+}
+ .education{
+
+    margin-right: 5%;
+    width: 40%;
+    background-color: rgb(238, 124, 124);
+    padding: 20px 25px;
+    box-shadow: 10px 10px 15px gray;
+}
+.management{
+    display: flex;
+    margin-top: 25px;
+    padding-top: 60px;
+    background-color: beige;
+    padding-bottom: 30px;
+}
+.divided{
+    width: 45%;
+    margin-left: 5%;
+    padding-left: 80px;
+}
+.income{
+    width: 45%;
+    margin-left: 5%;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.income h2{
+   color: #e4280fcf; 
+   font-weight: 700;
+   font-size: 35px;
+}
+.footer{
+    width: 100%;
+    background-color:rgb(14, 65, 96);
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.footer-section{
+    text-align: center;
+}
+.footer-section h1{
+font-size: 40px;
+font-weight: 700;
+color:  #e4280fcf;
+}
+.footer-section p{
+    font-size: 20px;
+    color: bisque;
+}
